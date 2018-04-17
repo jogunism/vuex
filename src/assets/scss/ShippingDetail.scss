@@ -1,0 +1,38 @@
+@import 'App';
+
+#modal_shipping_detail {
+
+  .modal-body {
+
+    padding: 20px;
+
+    .average {
+      padding-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .sub {
+      font-size: 13px;
+    }
+
+    table {
+      border: 1px solid #DDD;
+      thead {
+        background-color: #F0F0F0;
+        th {
+          font-size: 12px;
+          text-align: center;
+        }
+      }
+
+      tbody {
+        td {
+          font-size: 12px;
+          text-align: center;
+        }
+      }
+    }
+
+  }
+
+}

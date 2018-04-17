@@ -1,0 +1,82 @@
+@import 'App';
+
+$backgroundColor: #F9F9F9;
+$borderColor: #DDD;
+
+#login {
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: #5A5A5A;
+
+  .range {
+    display: block;
+    margin-top: 50px;
+  }
+
+  .content {
+    width: 350px;
+    height: 380px;
+    border: 1px solid $borderColor;
+    border-radius: $borderRadius;
+    // background: $backgroundColor;
+    padding: 0 35px;
+    margin-top: 15px;
+    text-align: left;
+
+    .left {
+      text-align: left;
+    }
+
+    .title {
+      // font-weight: bold;
+      font-size: 24px;
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    .sub-title {
+      font-size: 12px;
+      text-align: center;
+    }
+
+    .form {
+      text-align: center;
+      margin-top: 30px;
+
+      .form-title {
+        font-size: 12px;
+        font-weight: 500;
+        padding-left: 1px;
+      }
+
+      .message {
+        height: 15px;
+      }
+
+      input {
+        margin-top: 2px;
+        border-radius: $borderRadius;
+        background: #FFFFC8;
+      }
+
+      p {
+        padding-bottom: 5px;
+        .teform-controlxt {
+          width: 80%;
+        }
+        .checkbox {
+          display: initial;
+          margin-right: 0px;
+        }
+        button {
+          width: 100px;
+          height: 30px;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}

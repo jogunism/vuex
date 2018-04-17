@@ -1,0 +1,19 @@
+@import '_base';
+
+#header {
+
+  .user-header {
+    height: 120px;
+
+    .name {
+      display: block;
+      margin-bottom: 12px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .group {
+      font-size: 14px;
+    }
+  }
+}

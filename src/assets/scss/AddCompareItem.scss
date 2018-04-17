@@ -1,0 +1,77 @@
+@import 'App';
+
+#modal_add_compare_item {
+
+  .search_area {
+    position: relative;
+    height: 50px;
+    i {
+      position: absolute;
+      top: 8px;
+      left: 0;
+    }
+    input {
+      position: absolute;
+      top: 0;
+      left: 20px;
+      width: 150px;
+    }
+  }
+
+  .result_area {
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .no_results {
+      height: 100px;
+      text-align: center;
+      padding-top: 33px;
+    }
+    .selected_list {
+      padding: 10px 0;
+      font-size: 17px;
+      .label {
+        display: inline-block;
+        margin: 0 8px 5px 0;
+        height: 30px;
+        padding: 7px 10px 0 7px;
+        button {
+          background-color: transparent;
+          width: 10px;
+          height: 15px;
+          border: 0;
+          padding: 0;
+        }
+      }
+    }
+    input {
+      border: 0px;
+      width: 100%;
+    }
+    input:focus {
+      outline: none;
+    }
+    table {
+      margin-top: 5px;
+      .check_box {
+        width: 25px;
+      }
+      .mall_name {
+        width: 66px;
+      }
+      .price_info {
+        width: 135px;
+      }
+      td {
+        .fa-krw {
+          font-size: 12px;
+        }
+        .price {
+          font-size: 11px;
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,47 @@
+@import 'App';
+
+#monitoring { 
+
+  .search_area {
+    text-align: right;
+
+    input {
+      width: 125px;
+    }
+  }
+  
+  table {
+    margin-top: 10px;
+
+    .new {
+      background-color: #FFF9F9;
+    }
+
+    th {
+      small {
+        font-size: 11px;
+      }
+    }
+
+    td {
+      .fa-krw {
+        font-size: 12px;
+      }
+      .price {
+        font-size: 11px;
+      }
+      .new {
+        color: red;
+      }
+    }
+  }
+  
+  .pagination {
+    text-align: center;
+  }
+
+  .loading {
+    text-align: center;
+    padding-top: 35px;
+  }
+}
