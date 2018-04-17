@@ -1,6 +1,3 @@
-# range
-
-> range frontend
 
 ## Build Setup
 
